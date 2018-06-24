@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<title>Comprueba tus reflejos</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="inicio">
+        <div class="nombreJuego">Comprueba tus reflejos</div>
+        <div class="instrucciones">Presiona tan rápido como puedas las figuras que aparecen en pantalla</div>
+        <div class="redes">
+           <img src="img/facebook-logo.png" alt="">
+           <img src="img/twitter.png" alt="">
+           <img src="img/instagram.png" alt="">
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="opaco"></div>
+        <div class="plataforma"></div>
+        <div class="informe">
+            <span>Tu record fué de :</span>
+            <span class="recordFinal">0</span>
+            <span>Segundos:</span>
+            <p>Los reflejos protegen al cuerpo de cosas que pueden lesionarlo. Por ejemplo, si colocas la mano sobre un horno caliente, un reflejo hará que retires inmediatamente la mano antes de que el mensaje "¡Jo que caliente está!" te llegue al cerebro.</p>
+        </div>
+        <audio id="audio" src="fondo1.mp3" ></audio>
+        <audio id="audio2" src="record2.mp3" ></audio>
+        <audio id="audio3" src="click1.mp3" ></audio>
+        <audio id="audio4" src="fondo2.mp3" ></audio>
+        <header class="cabezaJuego">
+            <div class="mejorPuntaje">Tu record es de : </div>
+            <div class="puntaje">0 Segundos</div>
+            <img class="refresh" src="img/refresh.png" alt="">
+        </header>
+        <section class="contenedorFigura">
+            <div class="figura"></div>
+        </section>
+    </div>
+    <script src="js/inicio.js"></script>
+    <script src="js/figura.js"></script>
+</body>
+</html>
